@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item android:title="Python">
+        <menu>
+
+        <item android:id="@+id/item_python"
+            android:title="Python"
+            android:checked="true"
+            android:icon="@drawable/python_logo"
+            tools:ignore="HardcodedText" />
+
+        <item android:id="@+id/item_tutorial"
+            android:title="Tutorial"
+            android:icon="@drawable/tutorial_pic"
+            tools:ignore="HardcodedText" />
+
+
+
+        <item android:id="@+id/item_Exam"
+            android:title="Exam"
+            android:icon="@drawable/teacher_book"
+            tools:ignore="HardcodedText" />
+
+
+        <item android:id="@+id/item_Complier"
+            android:title="Complier"
+            android:icon="@drawable/baseline_code_24"
+            tools:ignore="HardcodedText" />
+
+
+        <item android:id="@+id/item_confution"
+            android:title="Confusion"
+            android:icon="@drawable/icon_confution"
+            tools:ignore="HardcodedText" />
+            </menu>
+
+        </item>
+    </group>
+
+
+    <group>
+
+        <item android:title="Account">
+            <menu>
+
+                <item
+                    android:id="@+id/item_account_info"
+                    android:title="Account Info"
+                   android:icon="@drawable/baseline_account_circle_24" />
+
+                <item
+                    android:id="@+id/item_achievement"
+                    android:title="Achievements"
+                   android:icon="@drawable/achievement_icon" />
+
+                <item
+                    android:id="@+id/item_Logout"
+                    android:title="Logout"
+                    android:icon="@drawable/baseline_logout_24" />
+            </menu>
+        </item>
+
+    </group>
+
+
+    <item
+        android:id="@+id/item_settings"
+        android:title="Settings"
+        android:icon="@drawable/baseline_settings_24"/>
+
+</menu>

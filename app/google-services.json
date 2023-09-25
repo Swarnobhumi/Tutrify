@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "627409448880",
+    "project_id": "tutrify",
+    "storage_bucket": "tutrify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627409448880:android:29dc5dee52ea083136f075",
+        "android_client_info": {
+          "package_name": "com.sst.tutrify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627409448880-6mjed8ougbhr7pb61af61siapodoh46m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Q4CkiS9WY8cin_fls77-sIU85g1rOxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627409448880-6mjed8ougbhr7pb61af61siapodoh46m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

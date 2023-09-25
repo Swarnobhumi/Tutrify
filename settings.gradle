@@ -1,0 +1,27 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        jcenter()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io"}
+        maven {
+            url "https://repo.spring.io/libs-release"
+        }
+        maven{
+            url "https://s01.oss.sonatype.org/content/repositories/snapshots"
+        }
+        jcenter()
+    }
+}
+
+rootProject.name = "Tutrify"
+include ':app'
+include ':ChatBot'
